@@ -149,7 +149,7 @@ def get_ai_response(user_input):
     payload = {
         "model": "mistralai/mistral-7b-instruct",
         "messages": [{"role": "user", "content": user_input}],
-        "max_tokens": 150
+        "max_tokens": 1500
     }
     
     try:
